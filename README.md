@@ -1,4 +1,6 @@
-<h1>Tribal Community Project – Chhattisgarh</h1>
+# Tribal Community Project – Chhattisgarh
+![Image](https://github.com/user-attachments/assets/f529ff73-a6c4-4139-9640-92ad380f1bfe)
+
 This project is a web platform designed to support and inform the tribal community of Chhattisgarh. The website serves as a comprehensive resource that showcases various government initiatives, schemes, and news updates relevant to the tribal population. By offering a user-friendly and visually engaging experience, the platform aims to improve awareness and accessibility to essential government services and information.
 
 <h2>Key Features:</h2>
