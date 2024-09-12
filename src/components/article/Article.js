@@ -1,16 +1,24 @@
 import React from 'react';
 import { InfiniteMovingCardsDemo } from '../ui/infinite-moving-cards/InfiniteMovingCardsDemo';
-import VideoBackground from '../ui/Video/VideoBackground';
+// import VideoBackground from '../ui/Video/VideoBackground';
 
-const videoProps = [
-  { src: '/assets/image/video2.mp4', type: 'video/mp4' }
-];
+// const videoProps = [
+//   { src: '/assets/image/video2.mp4', type: 'video/mp4' }
+// ];
 
 
 const Articles = () => {
+  const articleStyle = {
+    backgroundImage: "url('/assets/image/business1.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+    color: "white",
+    padding: "2.5rem 0",
+  };
   return (
-    <section className="pt-10">
-    <VideoBackground videos={videoProps}> </VideoBackground>
+    <section style={articleStyle} className="pt-10">
+    {/* <VideoBackground videos={videoProps}> </VideoBackground> */}
     <div className='relative items-center justify-between text-center'>
     <h2 className='font-black animate-bounce text-3xl text-gray-300'>Latest Articles</h2>
     </div>

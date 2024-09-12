@@ -31,7 +31,7 @@ const Footer = () => {
   };
   return (
     <div style={footerStyle}>
-      <div className="flex relative overflow-hidden object-cover justify-center items-center ">
+      <div className="flex bg-slate-800 relative overflow-hidden object-cover justify-center items-center ">
         <div
           ref={imgref}
           className="flex justify-center items-center object-cover"

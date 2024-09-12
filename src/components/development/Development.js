@@ -5,7 +5,7 @@ import { ThreeDCardDevelopment } from '../ui/3D-card/ThreeDCardDemo';
 
 const DevelopmentSections = () => {
   return (
-    <section className="flex justify-center">
+    <section className="flex bg-slate-800 justify-center">
       <ThreeDCardDevelopment content={content} />
     </section>
   );

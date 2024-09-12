@@ -1,10 +1,11 @@
-import React from 'react'
-import VideoBackground from '../ui/Video/VideoBackground'
-import { TypewriterEffect, TypewriterEffectSmooth } from '../ui/typewriterEffect/typewriter-effect';
+import React from "react";
+// import VideoBackground from "../ui/Video/VideoBackground";
+import {
+  TypewriterEffect,
+  TypewriterEffectSmooth,
+} from "../ui/typewriterEffect/typewriter-effect";
 
-const videoProps = [
-  { src: '/assets/image/video3.mp4', type: 'video/mp4' }
-];
+// const videoProps = [{ src: "/assets/image/video3.mp4", type: "video/mp4" }];
 // Empowering Tribal  Through Financial Solutions
 const words = [
   {
@@ -24,19 +25,29 @@ const words = [
     text: "Financial",
   },
   {
-    text: "Solutions"
-  }
-]
+    text: "Solutions",
+  },
+];
 
-const heroFinance
- = () => {
+const heroFinance = () => {
+  const schemeStyle = {
+    backgroundImage: "url('/assets/image/business1.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+    color: "white",
+    padding: "2.5rem 0",
+  };
   return (
-    <section className='relative h-screen flex flex-col justify-center items-center overflow-hidden'>
-      <VideoBackground videos={videoProps}/>
-      <TypewriterEffectSmooth className=' text-white' words={words} />
-      <p className=' text-xs text-center md:text-base lg:text-xl font-black  text-slate-100'>Discover how fintech and indigenous knowledge are transforming tribal communities.</p>
+    <section style={schemeStyle} className="relative h-screen flex flex-col justify-center items-center overflow-hidden ">
+      {/* <VideoBackground videos={videoProps} /> */}
+      <TypewriterEffectSmooth className=" text-white" words={words} />
+      <p className=" text-xs text-center md:text-base lg:text-xl font-black  text-slate-100">
+        Discover how fintech and indigenous knowledge are transforming tribal
+        communities.
+      </p>
     </section>
-  )
-}
+  );
+};
 
-export default heroFinance
+export default heroFinance;
