@@ -1,5 +1,4 @@
 import React from 'react';
-// import './Article.css';
 import { InfiniteMovingCardsDemo } from '../ui/infinite-moving-cards/InfiniteMovingCardsDemo';
 import VideoBackground from '../ui/Video/VideoBackground';
 

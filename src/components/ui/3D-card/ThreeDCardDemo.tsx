@@ -69,6 +69,7 @@ export const ThreeDCardDevelopment: React.FC<ThreeDCardDevelopmentProps> = ({
                   {item.name}
                 </a>
               </div>
+              
             </CardItem>
           </CardBody>
         </CardContainer>
