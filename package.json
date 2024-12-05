@@ -15,7 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/gsap": "^3.0.0",
     "autoprefixer": "^10.4.20",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.19",
     "gsap": "^3.12.5",
